@@ -32,7 +32,7 @@ defaultZone: http://eureka8400.com:8400/eureka
 server:
   port: 8085
 spring:
-  profiles: dev
+  profiles: test
 #  指定当前微服务对外暴露的名称
 application:
   name: abcmsc-provider-depart
